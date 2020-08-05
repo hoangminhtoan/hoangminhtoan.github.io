@@ -12,7 +12,7 @@ author: Toan Minh Hoang
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Get Started:
+  Get Started: "index"
   Resources:
     - Deep Learning:
     - OpenCV:
@@ -22,7 +22,7 @@ navbar-links:
     - English:
     - Korean:
   Blog:
-  About: "aboutme"
+  About: "about"
 
 
 
@@ -188,7 +188,7 @@ kramdown:
 # Add contents
 include:
  ["_pages"]
- 
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
@@ -199,7 +199,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-      readtime: false # add estimated reading time on all blog posts
+      readtime: true # add estimated reading time on all blog posts
   -
     scope:
       path: "" # all files
