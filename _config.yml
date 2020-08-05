@@ -12,11 +12,19 @@ author: Toan Minh Hoang
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  Get Started:
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://hoangminhtoan.github.io"
+    - Deep Learning:
+    - OpenCV:
+    - Object Detection:
+    - Data Structure & Algorithm:
+  Language Course:
+    - English:
+    - Korean:
+  Blog:
+  About: "aboutme"
+
+
 
 # --- Logo --- #
 
