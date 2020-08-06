@@ -20,7 +20,7 @@ navbar-links:
     - Data Structure & Algorithm:
   Language Course:
     - English:
-    - Korean:
+    - Korean: _korean
   Blog:
   About: "about"
 
@@ -115,7 +115,7 @@ footer-link-col: "#404040"
 gtag: G-XBDR48Z9H1
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: G-XBDR48Z9H1
+google_analytics: "G-XBDR48Z9H1"
 
 # Google Tag Manager ID
 gtm: GTM-NCQ5TQG
@@ -187,8 +187,13 @@ kramdown:
 
 # Add contents
 include:
- ["_pages"]
+  ["_pages"]
 
+collections:
+  languages:
+    output: true 
+    sort_by: lesson
+    permalink: /:collection/:path/
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
@@ -206,7 +211,7 @@ defaults:
       type: pages
     values:
       layout: "page"
-      show-avatar: true
+      show-avatar: false
 
 # Exclude these files from production site
 exclude:
