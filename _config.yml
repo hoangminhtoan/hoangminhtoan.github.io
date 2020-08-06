@@ -20,7 +20,7 @@ navbar-links:
     - Data Structure & Algorithm:
   Language Course:
     - English:
-    - Korean:
+    - Korean: _korean
   Blog:
   About: "about"
 
@@ -179,7 +179,7 @@ date_format: "%B %-d, %Y"
 timezone: "South Korea/Seoul"
 markdown: kramdown
 highlighter: rouge
-permalink: /:categories/:year-:month-:day-:title/
+permalink: /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
@@ -187,10 +187,9 @@ kramdown:
 
 # Add contents
 include:
- ["_pages"]
+  ["_pages"]
 
-
- collections:
+collections:
   languages:
     output: true 
     sort_by: lesson
