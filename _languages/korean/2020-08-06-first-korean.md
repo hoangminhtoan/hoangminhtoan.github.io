@@ -1,6 +1,6 @@
 ---
 title: Korean Grammer
-layout: collection
+layout: page
 permalink: /languages/korean/
 collection: languages
 tag: [misc, korean]
