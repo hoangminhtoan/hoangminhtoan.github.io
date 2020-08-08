@@ -192,6 +192,7 @@ include:
 collections:
   languages:
     output: true 
+    permalink: /:categories/:title/
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
