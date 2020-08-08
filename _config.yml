@@ -20,7 +20,7 @@ navbar-links:
     - Data Structure & Algorithm:
   Language Course:
     - English:
-    - Korean: korean
+    - Korean: /language/korean
   Blog:
   About: "about"
 
