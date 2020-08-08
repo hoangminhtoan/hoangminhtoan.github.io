@@ -3,19 +3,19 @@
 Gem::Specification.new do |spec|
   spec.name          = "beautiful-jekyll-theme"
   spec.version       = "4.0.1"
-  spec.authors       = ["Dean Attali"]
-  spec.email         = ["daattali@gmail.com"]
+  spec.authors       = ["Toan M.Hoang"]
+  spec.email         = ["hoangminhtoant2l1@gmail.com"]
 
   spec.summary       = "Beautiful Jekyll is a ready-to-use Jekyll theme to help you create an awesome website quickly. Perfect for personal blogs or simple project websites, with a focus on responsive and clean design."
-  spec.homepage      = "https://beautifuljekyll.com"
+  spec.homepage      = "https:hoangminhtoan.github.io"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|LICENSE|README|feed|404|_data|tags|staticman)}i) }
 
-  spec.metadata      = {
-    "changelog_uri"     => "https://github.com/daattali/beautiful-jekyll/blob/master/CHANGELOG.md",
-    "documentation_uri" => "https://github.com/daattali/beautiful-jekyll#readme"
-  }
+  #spec.metadata      = {
+    #"changelog_uri"     => "https://github.com/daattali/beautiful-jekyll/blob/master/CHANGELOG.md",
+    #"documentation_uri" => "https://github.com/daattali/beautiful-jekyll#readme"
+  #}
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", ">= 1.16"
   spec.add_development_dependency "rake", "~> 12.0"
+
 end
