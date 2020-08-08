@@ -1,10 +1,11 @@
 ---
 title: Korean Grammer
 layout: collection
-permalink: /korean/
+permalink: languages/korean/
 collection: languages
 entries_layout: grid
 classes: wide
+tag: [misc, korean]
 ---
 
 Nothing here

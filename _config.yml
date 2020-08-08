@@ -192,8 +192,6 @@ include:
 collections:
   languages:
     output: true 
-    sort_by: lesson
-    permalink: /:collection/:path/
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
