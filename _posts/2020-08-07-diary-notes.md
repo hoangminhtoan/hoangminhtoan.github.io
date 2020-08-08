@@ -24,3 +24,10 @@ comments: true
      kill -i pid # with pid is id of jekyll serve service
      ```
    
+   - Posts, Pages and Collections in Jekyll
+
+   ![Collections](../assets/img/jekyll.png)
+   
+## References
+ * [why and how to use collections in jekyll](https://dev.to/devdiaries/why-and-how-to-use-collections-in-jekyll-4b89)
+ * [jekyll collections](https://ben.balter.com/2015/02/20/jekyll-collections/)
