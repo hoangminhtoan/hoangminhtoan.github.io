@@ -20,7 +20,7 @@ navbar-links:
     - Data Structure & Algorithm:
   Language Course:
     - English:
-    - Korean: _korean
+    - Korean: languages/_korean
   Blog:
   About: "about"
 
@@ -112,13 +112,13 @@ footer-link-col: "#404040"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: G-XBDR48Z9H1
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "G-XBDR48Z9H1"
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: GTM-NCQ5TQG
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
@@ -180,7 +180,19 @@ timezone: "South Korea/Seoul"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+#paginate: 5
+
+# Pagination seetings
+pagination:
+  enabled: true
+  per_page: 5
+  offset: 2
+  permalink: '/page:/num'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sor_reverse: true
+
 
 kramdown:
   input: GFM
@@ -227,5 +239,3 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
