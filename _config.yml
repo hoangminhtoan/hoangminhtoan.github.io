@@ -20,7 +20,7 @@ navbar-links:
     - Data Structure & Algorithm:
   Language Course:
     - English:
-    - Korean: languages
+    - Korean: korean
   Blog:
   About: "about"
 
@@ -204,7 +204,8 @@ include:
 collections:
   languages:
     output: true 
-    permalink: /:categories/:title/
+    permalink: /:categories/:year-:month-:day-:title/
+  
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
@@ -223,6 +224,13 @@ defaults:
     values:
       layout: "page"
       show-avatar: false
+  -
+    scope:
+      path: ""
+      type: korean
+    values:
+      layout: "page"
+  
 
 # Exclude these files from production site
 exclude:
