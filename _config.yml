@@ -14,12 +14,12 @@ author: Toan Minh Hoang
 navbar-links:
   Get Started: "index"
   Resources:
-    - Deep Learning:
+    - Deep Learning: "resources/deep-learning"
     - OpenCV:
     - Object Detection:
     - Data Structure & Algorithm:
   Language Course:
-    - English:
+    - English: "languages/english"
     - Korean: "languages/korean"
   Blog:
   About: "about"
@@ -199,13 +199,9 @@ kramdown:
 
 # Add contents
 include:
-  ["_pages", "_koreans"]
+  ["_pages"]
   
-
-collections:
-  koreans:
-    output: true
-    permalink: /languages/korean/:year-:month-:day-:title/
+  
   
 # Default YAML values (more information on Jekyll's site)
 defaults:

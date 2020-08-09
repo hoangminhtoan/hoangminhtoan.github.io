@@ -31,3 +31,4 @@ comments: true
 ## References
  * [why and how to use collections in jekyll](https://dev.to/devdiaries/why-and-how-to-use-collections-in-jekyll-4b89)
  * [jekyll collections](https://ben.balter.com/2015/02/20/jekyll-collections/)
+ * [it-rocks](https://simpleit.rocks/ruby/jekyll/collections/jekyll-collections-versus-posts/)
