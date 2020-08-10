@@ -128,9 +128,10 @@ gtm: GTM-NCQ5TQG
 #  opt-out: true
 
 # --- Comments --- #
+comments: true 
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+disqus: toanmh
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
@@ -215,7 +216,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
@@ -228,6 +229,7 @@ defaults:
     values:
       layout: "page"
       show-avatar: false
+
   
 
 # Exclude these files from production site

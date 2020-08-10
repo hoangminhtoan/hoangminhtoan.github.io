@@ -4,8 +4,10 @@ title: Second post
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-permalink: /languages/korean/second-post/
-tags: [books, test]
+tags: [languages, Korean]
+categories:
+    - "languages"
+    - "Korean"
 ---
 
 Under what circumstances 

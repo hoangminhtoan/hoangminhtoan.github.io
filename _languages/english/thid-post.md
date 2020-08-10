@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Business Insider
-share-img: /assets/img/path.jpg
-permalink: /languages/english/third-post/
-tags: [language, english]
-
+share-img: ../assets/img/path.jpg
+tags: [languages, English]
+categories:
+    - "languages"
+    - "English"
 ---
 
 The White House reportedly quashed part of an intelligence report that showed Russia is helping the Trump campaign

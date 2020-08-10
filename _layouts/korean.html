@@ -6,7 +6,7 @@ layout: page
 
 {% assign posts = paginator.languages | default: site.languages %}
 
-<div class="posts-list">
+<div class="post-list">
     {% for post in posts %}
         {% if post.url contains "korean" %}
             <article class="post-preview">
