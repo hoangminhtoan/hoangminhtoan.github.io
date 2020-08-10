@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fuck you
+title: First English Post
 share-img: /assets/img/path.jpg
 tags: [languages, English]
 categories: languages English

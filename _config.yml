@@ -13,11 +13,11 @@ author: Toan Minh Hoang
 
 navbar-links:
   Get Started: index
-  Resources:
+  Topics:
     - Deep Learning: blogs/deep-learning
     - OpenCV: blogs/computer-vision
     - Object Detection: blogs/object-detection
-    - Data Structure & Algorithm: blogs/algorithm
+    - Data Structure & Algorithm: /topics/algorithms
   Language Blogs:
     - English: languages/english
     - Korean: languages/korean
@@ -179,7 +179,7 @@ date_format: "%B %-d, %Y"
 timezone: "South Korea/Seoul"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:categories/:year-:month-:day-:title/
 #paginate: 5
 
 # Pagination seetings
@@ -205,6 +205,8 @@ include:
 collections:
   languages:
     output: true
+    output_tags: true 
+    output_categories: true
     permalink: /languages/:path/
   blogs:
     output: true 
