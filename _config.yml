@@ -12,17 +12,16 @@ author: Toan Minh Hoang
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Get Started: "index"
+  Get Started: index
   Resources:
-    - Deep Learning: "resources/deep-learning"
-    - OpenCV:
-    - Object Detection:
-    - Data Structure & Algorithm:
-  Language Course:
-    - English: "languages/english"
-    - Korean: "languages/korean"
-  Blog:
-  About: "about"
+    - Deep Learning: blogs/deep-learning
+    - OpenCV: blogs/computer-vision
+    - Object Detection: blogs/object-detection
+    - Data Structure & Algorithm: blogs/algorithm
+  Language Blogs:
+    - English: languages/english
+    - Korean: languages/korean
+  About: about
 
 
 
@@ -200,7 +199,15 @@ kramdown:
 # Add contents
 include:
   ["_pages"]
-  
+
+#collections_dir: ["languages"]
+collections:
+  languages:
+    output: true
+    permalink: /languages/:path/
+  blogs:
+    output: true 
+    permalink: /blogs/:path/
   
   
 # Default YAML values (more information on Jekyll's site)
