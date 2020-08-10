@@ -2,7 +2,6 @@
 layout: post
 title: Second English post
 share-img: /assets/img/path.jpg
-permalink: /languages/english/second-post/
 tags: [languages, English]
 categories:
     - "languages"

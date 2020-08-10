@@ -2,7 +2,6 @@
 layout: post
 title: Fuck you
 share-img: /assets/img/path.jpg
-#permalink: /languages/english/first-post/
 tags: [languages, English]
 categories: languages English
 ---
