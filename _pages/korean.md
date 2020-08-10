@@ -1,4 +1,5 @@
 ---
-permalink: languages/korean/
+layout: korean
 title: Korean Course
+permalink: /languages/korean/
 ---
