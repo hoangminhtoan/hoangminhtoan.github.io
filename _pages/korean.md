@@ -1,6 +1,6 @@
 ---
 layout: korean
 title: Korean Course
-permalink: /languages/korean/
+permalink: /blogs/korean/
 tags: [languages, Korean]
 ---

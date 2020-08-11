@@ -15,13 +15,14 @@ navbar-links:
   Get Started: index
   Topics:
     - Deep Learning: /topics/deep-learning
-    - OpenCV: /topics/computer-vision
+    - OpenCv: /topics/computer-vision
     - Object Detection: /topics/object-detection
+    - Visual Object Tracking: /topics/vot
     - Data Structure & Algorithm: /topics/algorithms
-  Language Blogs:
-    - English: languages/english
-    - Korean: languages/korean
-  #News: news
+  Blogs:
+    - English: blogs/english
+    - Korean: blogs/korean
+    - Misc: blogs/misc
 
 
 
@@ -202,11 +203,11 @@ include:
   ["_pages"]
 
 collections:
-  languages:
+  blogs:
     output: true
     output_tags: true 
     output_categories: true
-    permalink: /languages/:path/
+    permalink: /blogs/:path/
   
   
 # Default YAML values (more information on Jekyll's site)
