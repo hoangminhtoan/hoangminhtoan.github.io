@@ -4,7 +4,7 @@
 title: My Personal Blog
 
 # Short description of your site
-description: A Technical Blog
+description: Toan M.Hoang
 
 # Your name to show in the footer
 author: Toan Minh Hoang
@@ -14,14 +14,14 @@ author: Toan Minh Hoang
 navbar-links:
   Get Started: index
   Topics:
-    - Deep Learning: blogs/deep-learning
-    - OpenCV: blogs/computer-vision
-    - Object Detection: blogs/object-detection
+    - Deep Learning: /topics/deep-learning
+    - OpenCV: /topics/computer-vision
+    - Object Detection: /topics/object-detection
     - Data Structure & Algorithm: /topics/algorithms
   Language Blogs:
     - English: languages/english
     - Korean: languages/korean
-  About: about
+  #News: news
 
 
 
@@ -201,16 +201,12 @@ kramdown:
 include:
   ["_pages"]
 
-#collections_dir: ["languages"]
 collections:
   languages:
     output: true
     output_tags: true 
     output_categories: true
     permalink: /languages/:path/
-  blogs:
-    output: true 
-    permalink: /blogs/:path/
   
   
 # Default YAML values (more information on Jekyll's site)
