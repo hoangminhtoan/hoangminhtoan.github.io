@@ -38,7 +38,12 @@
       {% endif %}
       
       {% if include.type == "post" %}
-          <span class="post-meta">Posted on {{ page.date | date: date_format }}</span>
+          <span class="post-meta">
+            Posted on {{ page.date | date: date_format }}
+            {% if page.last_modified_at %}
+              Last updated: {{ page.last_modified_at | date: date_format }}
+            {% endif %}
+          </span>
           {% if page.readtime %}
             {% include readtime.html %}
           {% endif %}
