@@ -40,7 +40,9 @@
       
       {% if include.type == "post" %}
           <span class="post-meta">
-            Posted on {{ page.date | date: date_format }}
+            {% if page.date %}
+              Posted on {{ page.date | date: date_format }}
+            {% endif %}
             {% if page.last_modified_at %}
               Last updated: {{ page.last_modified_at | date: date_format }}
             {% endif %}
