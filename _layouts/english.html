@@ -4,7 +4,7 @@ layout: page
 
 {{ content }}
 
-{% assign posts = paginator.languages | default: site.languages %}
+{% assign posts = paginator.blogs | default: site.blogs %}
 
 <div class="posts-list">
     {% for post in posts %}
