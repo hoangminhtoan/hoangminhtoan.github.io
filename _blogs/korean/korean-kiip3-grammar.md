@@ -32,3 +32,24 @@ tags: [languages, Korean]
 >
 > 아무리 A/V + 아/어 도: Dù có + A/V thế nào đi nữa thì ...
 
+**8.[동사] + 자마자.**
+> ngay sau khi, ngay khi, vừa...là...
+
+**9.[동사] + (으)려면.**
+> nếu muốn...thì...
+>
+> [A (으)려면 B] là hình thái rút gọn của **'(으)려고 하다' + '(으)면'**
+
+**10.[동사] + (으)ㄹ 래요.**
+> tôi muốn.../tôi dự định/...
+
+**11.[동사 - 형용사] + (으)ㄹ 수밖에 없다.**
+> chỉ có cách là/ không còn cách nào khác là...
+
+**12.[동사] + 기가 무섭게.**
+> = 8 nhấn mạnh hơn
+>
+> chủ yếu dùng trong văn viết
+
+**13.[동사] + 나요/ [형용사] + (으)ㄴ 가요.**
+
