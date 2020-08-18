@@ -32,6 +32,7 @@ tags: [misc, Jekyll]
 ## Jekyll Contents
 
 ![Contents](../../assets/img/posts/misc/jekyll_contents.png)
+![Filter Size](../../../assets/img/posts/deep-learning/odd_even_sized_filters.jpg)
 
 ## Jekyll Collections vs Posts
 * Collections
