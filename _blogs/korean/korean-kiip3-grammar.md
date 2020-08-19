@@ -6,6 +6,7 @@ thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [languages, Korean]
 ---
+Tóm tắt danh sách ngữ pháp KIIP level 3 
 
 **1.[동사 - 형용사] + 잖아요/ [명사] +(이)잖아요.**
 
