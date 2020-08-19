@@ -53,3 +53,27 @@ tags: [languages, Korean]
 
 **13.[동사] + 나요/ [형용사] + (으)ㄴ 가요.**
 
+<span style="color:blue">**14.[동사] + (으)ㄹ 만하다.**</span>
+> đáng để làm ...
+>
+> Ex: 영수 씨는 <span style="color:red">믿을 만한</span> 사람이니까 힘든 일이 있으면 부탁해 보세요.
+
+**15.[동사] + (으)ㄴ 채(로).**
+> để nguyên, giữ nguyên trạng thái, ...
+>
+> Ex: 한국에서는 신발을 신<span style="color:red">은 채 (로)</span> 방에 들어가면 안 된다.
+
+<span style="color:blue">**16.[동사] + (아/어) 버리다.**</span>
+> diễn tả sự hoàn thành của một hành động xác định
+>
+> 1) một cảm giác hạnh phúc về việc cuối cùng đã hoàn thành
+> 2) một cảm giác buồn vì thứ gì đó đã xảy ra theo cách mà người nói không muốn hoặc không mong đợi
+
+<span style="color:blue">**17.[동사 - 형용사] + 더라고요.**</span>
+
+
+<span style="color:blue">**.18.[동사] + (으)ㄹ 걸 그랬다.**</span>
+> <span style="color:orange">Biết vậy thì đã.../Biết vậy đừng...</span>
+> Ex: 아침을 안 먹어서 배가 고프다. 아침을 <span style="color:red">먹을 걸 그랬다</span>.
+
+
