@@ -88,3 +88,8 @@ Tóm tắt danh sách ngữ pháp KIIP level 3
 > Ex: 오늘 회식은 신입 사원의 입사를 축하하 <span style="color:red">기 위해서</span> 하는 겁니다.
 
 
+<span style="color:blue">**21.[동사] + (으)ㄹ 겸.**</span>
+> <span style="color:orange">vừa để ... vừa để, kiêm, đồng thời</span>
+>
+> Ex: 바람 좀 쐴 겸 <span style="color:red">밖에</span> 나왔어요.
+
