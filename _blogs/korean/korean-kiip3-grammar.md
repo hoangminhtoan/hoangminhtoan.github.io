@@ -67,8 +67,9 @@ Tóm tắt danh sách ngữ pháp KIIP level 3
 <span style="color:blue">**16.[동사] + (아/어) 버리다.**</span>
 > diễn tả sự hoàn thành của một hành động xác định
 >
-> 1) một cảm giác hạnh phúc về việc cuối cùng đã hoàn thành
-> 2) một cảm giác buồn vì thứ gì đó đã xảy ra theo cách mà người nói không muốn hoặc không mong đợi
+> 1. Một cảm giác hạnh phúc về việc cuối cùng đã hoàn thành
+>
+> 2. Một cảm giác buồn vì thứ gì đó đã xảy ra theo cách mà người nói không muốn hoặc không mong đợi
 
 <span style="color:blue">**17.[동사 - 형용사] + 더라고요.**</span>
 
