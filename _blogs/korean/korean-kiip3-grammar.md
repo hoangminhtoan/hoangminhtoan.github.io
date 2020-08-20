@@ -77,4 +77,13 @@ Tóm tắt danh sách ngữ pháp KIIP level 3
 > <span style="color:orange">Biết vậy thì đã.../Biết vậy đừng...</span>
 > Ex: 아침을 안 먹어서 배가 고프다. 아침을 <span style="color:red">먹을 걸 그랬다</span>.
 
+<span style="color:blue">**19.[동사] + 던.**</span>
+> <span style="color:orange">1. Đã từng...</span>
+> <span style="color:orange">2. Việc bắt đầu từ trong quá khư vẫn còn tiếp diễn đến hiện tại</span>
+> Ex: 우리가 자주 <span style="color:red">가던</span> 카페에 다시 가 보고 싶어요.
+
+<span style="color:blue">**20.[동사 - 형용사] + 기 위해서.**</span>
+> <span style="color:orange">làm gì đó ... để</span>
+> Ex: 오늘 회식은 신입 사원의 입사를 축하하 <span style="color:red">기 위해서</span> 하는 겁니다.
+
 
