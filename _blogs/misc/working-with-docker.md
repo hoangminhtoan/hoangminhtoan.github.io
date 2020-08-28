@@ -11,6 +11,7 @@ tags: [docker]
 ## Table of Contents
 * [Commands](#commands)
 * [DockerFile](#dockerfile)
+* [Mount](#mount)
 
 
 ## Commands
@@ -103,4 +104,9 @@ ENV <key>=<value> ...
 ```
 In the first form, only one variable can be set per line. While multiple variables can be set with the equals character assigning value to the key.\n
 The environment variables set are persisted through the container runtime, and can be viewed by using ```docker inspect```.
+
+
+## Mount
+ * Blind Mounts\
+ In blind mounts, the file/directory on the host machine is mounted into the container.
 
