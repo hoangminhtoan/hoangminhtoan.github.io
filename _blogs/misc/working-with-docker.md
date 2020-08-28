@@ -95,3 +95,13 @@ or
 ENTRYPOINT <command> <param 1> <param 2> (shell form) 
 ```
 
+* ENV
+The **ENV** instruction sets the environment variables to the image.
+```
+ENV <key> <value>
+or 
+ENV <key>=<value> ...
+```
+In the first form, only one variable can be set per line. While multiple variables can be set with the equals character assigning value to the key.\n
+The environment variables set are persisted through the container runtime, and can be viewed by using ```docker inspect```.
+
