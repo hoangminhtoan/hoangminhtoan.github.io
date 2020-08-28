@@ -9,8 +9,8 @@ tags: [docker]
 ---
 
 ## Table of Contents
-* [Commands](*commands)
-* [DockerFile](*dockerfile)
+* [Commands](#commands)
+* [DockerFile](#dockerfile)
 
 
 ## Commands
@@ -89,13 +89,12 @@ or
 CMD ["param 1", "param 2"] (as default parameters to ENTRYPOINT)
 or
 CMD <command> <param 1> <param 2> (shell form)
-
 ENTRYPOINT ["executable", "param 1", "param 2"] (known as the exec form)
 or
 ENTRYPOINT <command> <param 1> <param 2> (shell form) 
 ```
 
-* ENV
+* ENV\
 The **ENV** instruction sets the environment variables to the image.
 ```
 ENV <key> <value>
