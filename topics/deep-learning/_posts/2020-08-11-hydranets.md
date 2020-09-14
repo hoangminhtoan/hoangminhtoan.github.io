@@ -8,7 +8,8 @@ share-img: /assets/img/path.jpg
 tags: [deep-learning, tesla]
 ---
 
-![The HydraNet](../../../assets/img/posts/deep-learning/papers/hydranets_fig1.png)
+![The HydraNet](../../../assets/img/posts/deep-learning/papers/hydranets_fig1.png)*The HydraNet*
+
 > *The HydraNet architecture: contains multiple <i>branches</i> specialized for different inputs and a <i>gate</i> chooses which branches to run when performing inference on an input, and a combiner that aggregates branch outputs to make final predictions.*
 
 ## Contents
