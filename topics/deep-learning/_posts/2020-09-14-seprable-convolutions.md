@@ -46,13 +46,37 @@ Similar to the spatial separable convolution, a depthwise separable convolution 
 ### The Depthwise Convolution
 In depthwise convolution, we use each filter channel only at one input channel. In the example, we have 3 channel filter and 3 channel image, then we break the filter and image into three different channels and convolve the corresponding image with corresponding channel and then tack them back.
 
-|-|-|
-|---|---|
-|![](../../../assets/img/posts/deep-learning/depthwise_conv.png)|![](../../../assets/img/posts/deep-learning/depthwise_conv_2.png)|
-----
-<p algin="center"><em>Figure 4. A Depthwise Convolution</em>
+<img style="left" src="../../../assets/img/posts/deep-learning/depthwise_conv.png" width="360"> 
+<img style="right" src="../../../assets/img/posts/deep-learning/depthwise_conv_2.png" width="360">
+
+<p align="center"><em>Figure 4. A Depthwise Convolution</em>
 </p>
 
 Each 5x5x1 kernel iterates 1 channel of the image (note: **1 channel**, not all channels), getting the scalar products of every 25 pixel group, giving out a 8x8x1 image. Stacking these images together creates a 8x8x3 image.
 
 ### The Pointwise Convolution
+The pointwise convolution uses a 1x1 kernel, or a kernel that iterates through every single point. This kernel has a depth of however many channels the input image has. Therefore, we iterate a 1x1x3 kernel through 8x8x3 image, to get a 8x8x1 image.
+
+![](../../../assets/img/posts/deep-learning/point_wise.png)
+<p align="center"><em>Figure 5. </em></p>
+
+
+### Alright, but what's the point of creating a depthwise separable convolution?
+Let's calculate the number of multiplications the computer has to do in the original convolution.
+<br>
+There are 256 5x5x3 kernels that move 8x8 times. <br>
+> 256x3x5x5x8x8 = 1,228,800 multiplications
+
+In the depthwise convolution, we have 3 5x5x1 kernels that move 8x8 times.
+> 3x5x5x8x8 = 4,800 multiplications
+
+In the pointwise convolution, we have 256 1x1x3 kernels that move 8x8 times.
+> 256x1x1x3x8x8 = 49,152 multiplications
+
+Adding them up together, that's 53,952 multiplications.
+
+### 1x1 Kernels
+A 1x1 kernel - or rather, n 1x1xm kernels where n i the number of output channels and m is the number of input channels - can be used outside of separable convolutions. One obvious purpose of a 1x1 kernel is to increase or reduce the depth of an image.
+
+
+
