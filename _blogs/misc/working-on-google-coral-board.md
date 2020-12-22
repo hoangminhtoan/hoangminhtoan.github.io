@@ -35,7 +35,7 @@ sudo fdisk -l
 free -u
 ```
 
-* Add more space into swapfile
+ * Add more space into swapfile
 the Dev Board only has 1GB of RAM, therefore, I will create additional 8GB on swap paritifion on external SD card or USB
 ```
 sudo mount /dev/sda1 /directory/to/board (e.g. /mnt) # mount SD card to directory on the board
@@ -81,6 +81,5 @@ python3
 
 
 ### References
-* [Official Setting up Google Dev Board](https://coral.ai/docs/dev-board/get-started)
-* [TensorFlow Lite](https://www.tensorflow.org/lite/guide/python)
-* [Install OpenCV on Google Dev Board](https://krakensystems.co/blog/2020/doing-machine-vision-on-google-coral)
+ [Official Setting up Google Dev Board](https://coral.ai/docs/dev-board/get-started)  
+ [TensorFlow Lite](https://www.tensorflow.org/lite/guide/python) [Install OpenCV on Google Dev Board](https://krakensystems.co/blog/2020/doing-machine-vision-on-google-coral)
